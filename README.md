@@ -50,6 +50,9 @@ sudo systemctl restart docker.service
 ./run.sh
 ```
 
+This script run FluentBit and loggen container.
+loggen container code exist in [loggen](loggen) subdirectory. This container outputs a log every SLEEP_SEC seconds.
+
 
 ## Output
 
